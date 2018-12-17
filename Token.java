@@ -373,6 +373,16 @@ public class Token {
 		System.out.println("Total de tokens obtidos usando o metodo token.tokenize(texto, \".\"); = token.totalTokenized() = " + token.totalTokenized());
 		for(int n = 1; n <= token.totalTokenized(); n++)
 			System.out.println("token.token(" + n + ") = " + token.token(n));
+		///Teste de velocidade em um ciclo de 1m
+		long test=System.currentTimeMillis();
+		String m="";
+		for(int n=0;n<2000000;n++) token.tokenize("Steve Nunes da Silva"," ");
+		System.out.println("token.get() - Duracao: "+(System.currentTimeMillis()-test)+"ms");
+    	texto="Steve Nunes da Silva";
+		test=System.currentTimeMillis();
+		String[] splitString = (texto.split("\\s+"));
+		for(int n=0;n<2000000;n++) splitString=(texto.split("\\s+"));
+		System.out.println("Token com regex - Duracao: "+(System.currentTimeMillis()-test)+"ms");
 	}
 	
 }
