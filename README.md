@@ -23,7 +23,7 @@ Resumo do conteudo aqui encontrado:
 * Token.java - Metodos para manipulação de tokens, feitos por mim
 * Util.java - Conjunto de metodos basicos, porem uteis que eu criei para usar em varios projetos.
               Todos os metodos estão explicados em javaDoc. Contem:
-              Metodos de escrita e leitura via console
-              Gerador de numeros aleatorios
-              Metodos de controle de tempo limite
+              * Metodos de escrita e leitura via console
+              * Gerador de numeros aleatorios
+              * Metodos de controle de tempo limite
 * Variaveis.java - Exemplos de uso de variaveis em Java
