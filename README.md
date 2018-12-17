@@ -21,7 +21,7 @@ Resumo do conteudo aqui encontrado:
 * Strings.java - Exemplos de manipulação de strings
 * Teste.java - Esse arquivo nunca contem um conteudo fixo, quando quero testar algo, eu testo aqui =)
 * Token.java - Metodos para manipulação de tokens, feitos por mim
-* Util.java - Conjunto de metodos basicos, porem que eu criei para usar em varios projetos.
+* Util.java - Conjunto de metodos basicos, porem uteis que eu criei para usar em varios projetos.
               Todos os metodos estão explicados em javaDoc. Contem:
               Metodos de escrita e leitura via console
               Gerador de numeros aleatorios
