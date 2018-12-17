@@ -11,12 +11,10 @@ Resumo do conteudo aqui encontrado:
 * Baralho.java - Teste de enumeração
 * Binario.java - Metodo que converte numero inteiro em binário
 * ClassesEHerancas.java - Teste de classes e heranças
-* Exemplos.java - Um monte de testes com a linguagem que eu fiz a muito tempo atras para
-                  tentar aprender java por conta propria (antes mesmo de eu ter começado o curso)
+* Exemplos.java - Um monte de testes com a linguagem que eu fiz a muito tempo atras para tentar aprender java por conta propria (antes mesmo de eu ter começado o curso)
 * Loops.java - Exemplos de laços em java
 * Ordenador.java - Metodo que organiza uma array de strings em ordem alfabetica (normal e reverso)
-* Quadrado.java - Outro teste bobo que fiz antes de começar o curso de java 
-                  (Cria um retangulo usando caracteres ASCII, com o tamanho especificado)
+* Quadrado.java - Outro teste bobo que fiz antes de começar o curso de java (Cria um retangulo usando caracteres ASCII, com o tamanho especificado)
 * Regex.java - Exemplos de utilização de expressões regulares (Regex é vida)
 * Strings.java - Exemplos de manipulação de strings
 * Teste.java - Esse arquivo nunca contem um conteudo fixo, quando quero testar algo, eu testo aqui =)
