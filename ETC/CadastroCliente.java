@@ -1,3 +1,4 @@
+package ETC;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,9 +33,8 @@ public class CadastroCliente {
 		String nome=sc.next();
 		System.out.print("Digite a idade: ");
 		int idade=Integer.parseInt(sc.next());
-		Cliente c=new Cliente(nome,idade);
-		ListaDeClientes.add(c);
-		System.out.println("Cliente '"+c.Nome+"' adicionado com sucesso!");
+		ListaDeClientes.add(new Cliente(nome,idade));
+		System.out.println("Cliente '"+nome+"' adicionado com sucesso!");
 	}
 	public static void RemoverCliente() {
 		int pos;

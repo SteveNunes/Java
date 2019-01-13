@@ -1,3 +1,4 @@
+package ETC;
 class ClassesEHerancas {
 	
 	public static Personagem personagem;

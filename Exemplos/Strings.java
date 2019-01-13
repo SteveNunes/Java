@@ -1,3 +1,4 @@
+package Exemplos;
 /**
  * Biblioteca para quebrar Strings em tokens
 */

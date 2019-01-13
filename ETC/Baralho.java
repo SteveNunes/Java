@@ -1,3 +1,4 @@
+package ETC;
 class Baralho {
 	private Carta[] cartas = new Carta[Naipe.values().length * Valor.values().length];
 	Baralho() {

@@ -1,3 +1,4 @@
+package ETC;
 public class Util {
 	
 	private long tempoLimite;
