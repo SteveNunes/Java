@@ -10,6 +10,7 @@ Resumo do conteudo aqui encontrado:
 * Sporcle\ - Jogo de caça palavras simples, via mensagem no console.
 * Baralho.java - Teste de enumeração.
 * Binario.java - Metodo que converte numero inteiro em binário.
+* CadastroCliente.java - Teste de 'List'
 * ClassesEHerancas.java - Teste de classes e heranças.
 * Exemplos.java - Um monte de testes com a linguagem que eu fiz a muito tempo atras para tentar aprender java por conta propria, antes mesmo de eu ter começado o curso.
 * Loops.java - Exemplos de laços em java.
