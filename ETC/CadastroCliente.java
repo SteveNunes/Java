@@ -7,11 +7,11 @@ class Cliente {
 	Cliente(String nome,int idade) { Nome=nome; Idade=idade; }
 }
 public class CadastroCliente {
-	private static java.util.Scanner sc = new java.util.Scanner(System.in);
-	private static List ListaDeClientes;
+	private static java.util.Scanner sc=new java.util.Scanner(System.in);
+	private static List<Cliente>ListaDeClientes;
 	public static void main(String args[]) {
-		ListaDeClientes = new ArrayList();
-		char c=0;
+		ListaDeClientes=new ArrayList();
+		char c;
 		do {
 			c=Opcao();
 			if(c=='1') CadastrarCliente();
@@ -35,6 +35,7 @@ public class CadastroCliente {
 		int idade=Integer.parseInt(sc.next());
 		ListaDeClientes.add(new Cliente(nome,idade));
 		System.out.println("Cliente '"+nome+"' adicionado com sucesso!");
+		ExibirInfoDaLista();
 	}
 	public static void RemoverCliente() {
 		int pos;
@@ -44,18 +45,24 @@ public class CadastroCliente {
 			if(pos<=0 || pos>ListaDeClientes.size()) System.out.print("Cliente invalido!\n");
 		}
 		while(pos<=0 || pos>ListaDeClientes.size());
-		Cliente c=(Cliente)ListaDeClientes.get(pos-1);
+		Cliente c=ListaDeClientes.get(pos-1);
 		System.out.println("Cliente '"+c.Nome+"' removido com sucesso!");
 		ListaDeClientes.remove(pos-1);
+		ExibirInfoDaLista();
 	}
 	public static void ListarClientes() {
 		if(ListaDeClientes.size()==0) System.out.println("A lista de clientes esta vazia!\n");
 		else {
 			System.out.print("Listando clientes:\n");
 			for(int n=0;n<ListaDeClientes.size();n++) {
-				Cliente c=(Cliente)ListaDeClientes.get(n);
+				Cliente c=ListaDeClientes.get(n);
 				System.out.println("Cliente "+(n+1)+": Nome:"+c.Nome+" Idade: "+c.Idade);
 			}
 		}
+	}
+	public static void ExibirInfoDaLista() {
+		if(ListaDeClientes.size()==0)
+			System.out.println("A lista de clientes ficou vazia!");
+		else System.out.println("Quantidade de clientes na lista atualmente: "+ListaDeClientes.size());
 	}
 }
